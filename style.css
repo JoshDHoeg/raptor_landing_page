@@ -1,0 +1,49 @@
+*{
+  font-family: 'Reem Kufi', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+
+.fadeOut{
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+.fadeIn{
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+.nav-no-scroll{
+    overflow: hidden
+}
+
+
+.table, .table_cell{
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+.table{
+  position: fixed;
+  overflow: hidden;
+  background: #F4F4F4;
+  display: table;
+}
+.table .table_cell{
+  height: 100%;
+  width: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+.table .table_cell h1{
+  color: #01401C;
+  font-size: 36px;
+}
